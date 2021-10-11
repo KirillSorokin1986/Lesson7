@@ -1,0 +1,29 @@
+package model;
+
+/*
+ * Created by David Karchikyan on 30.09.2021
+ */
+
+public class Cat {
+
+    private String name;
+    private int satiety;
+
+    public Cat(String name, int satiety) {
+
+        this.satiety = satiety;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSatiety() {
+        return satiety;
+    }
+
+    public void setSatiety(int satiety) {
+        this.satiety = satiety;
+    }
+}
